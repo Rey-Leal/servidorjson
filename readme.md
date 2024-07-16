@@ -10,3 +10,7 @@ possibilita enviar os dados necessários em formato JSON para o cliente, utiliza
 * C#
 * MVC
 * Console Application
+
+## Caminhos de acesso aos dados da API em execução
+//localhost:64195/api/produto
+//localhost:64195/api/usuario

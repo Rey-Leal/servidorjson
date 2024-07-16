@@ -11,13 +11,16 @@ namespace Server
         public UsuarioRepositorio()
         {
             Add(new Usuario(1, "reyLeal", "Reinaldo Leal de Souza", "06744668617", "reinaldo@mgfinformatica.com.br", true, "jhk&45Lsad45", "4664617",
-                    new EntesAutorizados[] { new EntesAutorizados(1, "22719918000128", "MGF Informática Ltda"),
-                                         new EntesAutorizados(2, "64480643000162", "Camara Passos"),
-                                         new EntesAutorizados(3, "02318396000145", "DEMSUR Muriae")}));
+                new EntesAutorizados[] {
+                    new EntesAutorizados(1, "22719918000128", "MGF Informática Ltda"),
+                    new EntesAutorizados(2, "64480643000162", "Camara Passos"),
+                    new EntesAutorizados(3, "02318396000145", "DEMSUR Muriae")}));
             Add(new Usuario(2, "vida", "Vidakele Borges", "06744668617", "vidakelce@campassos.com.br", false, "46hgka978", "654616",
-                    new EntesAutorizados[] { new EntesAutorizados(1, "64480643000162", "Camara Passos") }));
+                new EntesAutorizados[] {
+                    new EntesAutorizados(1, "64480643000162", "Camara Passos") }));
             Add(new Usuario(3, "marcos", "Marcos Barcaro", "06744668617", "marcos@demsur.com.br", false, "asd68765jfg5", "194616",
-                    new EntesAutorizados[] { new EntesAutorizados(1, "02318396000145", "DEMSUR Muriae") }));
+                new EntesAutorizados[] {
+                    new EntesAutorizados(1, "02318396000145", "DEMSUR Muriae") }));
         }
 
         public IEnumerable<Usuario> GetAll()
