@@ -12,9 +12,12 @@ namespace Server
 
         public ProdutoRepositorio()
         {
-            Add(new Produto(1, "Molho de tomate", "Molhos", 5.39M));
-            Add(new Produto(2, "Doce de Pêssego", "Enlatados", 13.75M));
-            Add(new Produto(3, "Feijão", "Grãos", 26.99M));
+            Add(new Produto(1, "Arroz", "Grãos", 25.39M));
+            Add(new Produto(2, "Feijão", "Grãos", 12.99M));
+            Add(new Produto(3, "Macarrão", "Massas", 5.39M));
+            Add(new Produto(4, "Molho de tomate", "Molhos", 2.10M));
+            Add(new Produto(5, "Doce de Pêssego", "Enlatados", 13.75M));
+            Add(new Produto(6, "Geleia", "Enlatados", 29.92M));
         }
 
         public IEnumerable<Produto> GetAll()
