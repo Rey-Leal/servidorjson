@@ -12,12 +12,16 @@ namespace Server
 
         public ProdutoRepositorio()
         {
-            Add(new Produto(1, "Arroz", "Grãos", 25.39M));
-            Add(new Produto(2, "Feijão", "Grãos", 12.99M));
-            Add(new Produto(3, "Macarrão", "Massas", 5.39M));
-            Add(new Produto(4, "Molho de tomate", "Molhos", 2.10M));
-            Add(new Produto(5, "Doce de Pêssego", "Enlatados", 13.75M));
-            Add(new Produto(6, "Geleia", "Enlatados", 29.92M));
+            Add(new Produto(1, "Arroz", "Grãos", 29.90M));
+            Add(new Produto(2, "Feijão", "Grãos", 15.50M));
+            Add(new Produto(3, "Macarrão", "Massas", 6.50M));
+            Add(new Produto(4, "Extrato", "Molhos", 3.20M));
+            Add(new Produto(5, "Pão", "Padaria", 8.50M));
+            Add(new Produto(6, "Leite", "Laticínios", 5.50M));
+            Add(new Produto(7, "Queijo", "Laticínios", 20.90M));
+            Add(new Produto(8, "Frango", "Carnes", 26.90M));
+            Add(new Produto(9, "Maçã", "Frutas", 5.99M));
+            Add(new Produto(10, "Alface", "Hortifruti", 3.99M));
         }
 
         public IEnumerable<Produto> GetAll()
